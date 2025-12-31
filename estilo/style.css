@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --corparagrafo:#021E29;
+    --corbackground:#c5b89249;
+    --cortitulo:#3D5F39;
+}
+
+body{
+    height: 100vh;
+}
+
+.cabecalho{
+    position: relative;
+    height: 950px;
+    background-image: url(../img/campo\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cabecalho article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    color: white;   
+}
+
+ .btn-contato p{
+    text-align: center;
+    position: absolute;
+    top: 46%;
+    left: 20%;
+    width: 200px;
+    color: white;
+    padding: 20px;
+    border-radius: 35px;
+    border: 1px solid white;
+    transition: 1s;
+ }
+
+ .btn-contato p:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+    cursor: pointer;
+ }
+
+ .corpo{
+    position: relative;
+    background-color: var(--corbackground);
+    line-height: 50px;
+ }
+
+ .corpo img{
+    margin-left: 5%;
+    width: 35%;
+    border-radius: 20px;
+    padding-top: 20px;
+ }
+
+ .corpo article{
+    position: absolute;
+    top: 40%;
+    left: 50%;    
+ }
+
+ .corpo article h2{
+    color: var(--cortitulo);
+    font-size: 3em;
+
+
+ }
+
+ .corpo article p{
+    color: var(--corparagrafo);
+    font-size: 2em;
+    text-align: start;
+ }
+ .paralax{
+    position: relative;
+ }
+
+ .paralax h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 3em;
+    text-transform: uppercase;
+ }
+
+.paralax p{
+    color: white;
+}
+
+ #foto-1{
+    height: 1000px;
+    background-image: url(../img/campo\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .orcamento{
+    position: absolute;
+    top: 40% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 20px;
+    font-size: 1.5em;
+    transition: 1s;
+ }
+
+ .orcamento:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+    cursor: pointer;
+ }
+
