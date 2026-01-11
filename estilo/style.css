@@ -13,22 +13,29 @@ body{
     height: 100vh;
 }
 
+h1{
+   font-size: 4em;
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+
 .cabecalho{
     position: relative;
     height: 950px;
-    background-image: url(../img/campo\ 3.jpg);
+    background-image: url(../img/imagem\ -tiago-1.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
 
+
 .cabecalho article{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);    
-    color: white;   
+    color: var(--corparagrafo);   
 }
 
  .btn-contato p{
@@ -37,10 +44,12 @@ body{
     top: 46%;
     left: 20%;
     width: 200px;
-    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:var(--corparagrafo);
     padding: 20px;
     border-radius: 35px;
-    border: 1px solid white;
+    border: 1px solid var(--corparagrafo);
     transition: 1s;
  }
 
@@ -107,6 +116,29 @@ body{
     background-attachment: fixed;
  }
 
+ #foto-2{
+   position: relative;
+   height: 1000px;
+   background-image: url(../img/campo\ 2.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ }
+
+ #foto-2 p{
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   font-weight: bold;
+
+   text-transform: uppercase;
+   font-size: 1.5em;
+   text-align: center;
+ }
+
  .orcamento{
     position: absolute;
     top: 40% ;
@@ -122,5 +154,51 @@ body{
  .orcamento:hover{
     background-color: rgba(255, 255, 255, 0.342);
     cursor: pointer;
+ }
+
+.manutencao{
+   position: relative;
+   height: 870px;
+   background-color: var(--corbackground);
+}
+
+.manutencao img{
+   width: 470px;
+   padding: 20px 0px 20px 0px;
+   margin-left: 8%;
+   border-radius: 5%;
+}
+
+.manutencao-cnt{
+   position: absolute;
+   top: 50%;
+   left: 65%;
+   transform: translate(-50%, -50%);
+}
+
+.manutencao-cnt h2{
+   font-size: 3em;
+   color: var(--cortitulo);
+}
+
+.manutencao-cnt p{
+   
+   font-size: 2em;
+   color: var(--corparagrafo);
+}
+
+
+
+ .contato img{
+   width: 25px;
+ }
+
+ footer{
+   height: 100px;
+   background-color: var(--corparagrafo);
+   text-align: center;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bolder;
  }
 
